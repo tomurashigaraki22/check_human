@@ -63,4 +63,5 @@ def check_image():
         return jsonify({'message': 'This is not a real human image.', 'status': 400}), 400
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=1234, debug=True, use_reloader=True)
+    app.run(host="0.0.0.0", debug=True, use_reloader=True)
+    
